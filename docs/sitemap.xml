@@ -2,8 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://brucemaa.github.io/my-first-post/</loc><lastmod>2021-01-26T17:43:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://brucemaa.github.io/posts/</loc><lastmod>2021-01-26T17:43:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://brucemaa.github.io/</loc><lastmod>2021-01-26T17:43:05&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://brucemaa.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://brucemaa.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://brucemaa.github.io/categories/</loc><lastmod>2021-01-27T10:38:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://brucemaa.github.io/tags/git/</loc><lastmod>2021-01-27T10:38:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://brucemaa.github.io/2016-08-16-git-basics/</loc><lastmod>2021-01-27T10:38:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://brucemaa.github.io/posts/</loc><lastmod>2021-01-27T10:38:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://brucemaa.github.io/tags/</loc><lastmod>2021-01-27T10:38:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://brucemaa.github.io/categories/technology/</loc><lastmod>2021-01-27T10:38:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://brucemaa.github.io/</loc><lastmod>2021-01-27T10:38:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>

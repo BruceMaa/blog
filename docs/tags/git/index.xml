@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - 司马琦昂的博客</title>
-        <link>https://brucemaa.github.io/posts/</link>
-        <description>所有文章 | 司马琦昂的博客</description>
+        <title>Git - 标签 - 司马琦昂的博客</title>
+        <link>https://brucemaa.github.io/tags/git/</link>
+        <description>Git - 标签 - 司马琦昂的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>bruce.maqiang@gmail.com (BruceMaa)</managingEditor>
-            <webMaster>bruce.maqiang@gmail.com (BruceMaa)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Aug 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://brucemaa.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>bruce.maqiang@gmail.com (BruceMaa)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 16 Aug 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://brucemaa.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
     <title>Git命令使用记录-基础篇</title>
     <link>https://brucemaa.github.io/2016-08-16-git-basics/</link>
     <pubDate>Tue, 16 Aug 2016 00:00:00 &#43;0000</pubDate>
