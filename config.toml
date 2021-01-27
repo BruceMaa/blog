@@ -394,7 +394,7 @@ enableEmoji = true
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
         repo = "BruceMaa/brucemaa.github.io"
         issueTerm = "pathname"
