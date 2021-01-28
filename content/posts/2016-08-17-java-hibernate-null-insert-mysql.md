@@ -1,6 +1,7 @@
 ---
 title: MySQL表中字段有非空限制，Hibernate添加默认值
 date: 2016-08-17
+lastmod: 2016-08-17
 draft: false
 categories: ["Java"]
 tags: ["Hibernate"] 
