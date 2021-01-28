@@ -3,9 +3,8 @@ title: Git命令使用记录-基础篇
 date: 2016-08-16
 lastmod: 2017-04-09
 draft: false
-categories: ["Technology"]
-tags:
-- Git
+categories: ["DevTools"]
+tags: ["Git"]
 ---
 
 # Git命令使用记录－来源自[官方文档][a01f5501]
