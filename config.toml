@@ -69,13 +69,13 @@ enableEmoji = true
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.zh-cn.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
+#      [[languages.zh-cn.menu.main]]
+#        identifier = "documentation"
+#        pre = ""
+#        name = "文档"
+#        url = "/categories/documentation/"
+#        title = ""
+#        weight = 4
       [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = ""
@@ -113,7 +113,7 @@ enableEmoji = true
         tileColor = "#da532c"
       # 搜索配置
       [languages.zh-cn.params.search]
-        enable = true
+        enable = false
         # 搜索引擎的类型 ("lunr", "algolia")
         type = "algolia"
         # 文章内容最长索引长度
@@ -160,7 +160,7 @@ enableEmoji = true
           paginate = 6
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
-        GitHub = "https://github.com/BruceMaa"
+        GitHub = "BruceMaa"
         RSS = true
 
 [params]
@@ -449,7 +449,7 @@ enableEmoji = true
     bing = ""
     yandex = ""
     pinterest = ""
-    baidu = ""
+    baidu = "ed487e2486b1b01b450e21334653d1c2"
 
   # Site SEO config
   # 网站 SEO 配置
@@ -464,7 +464,7 @@ enableEmoji = true
   # Analytics config
   # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = "UA-82993633-1"
@@ -565,8 +565,8 @@ enableEmoji = true
 # Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":year/:month/:filename"
+  # posts = ":filename"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
