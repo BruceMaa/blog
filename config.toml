@@ -38,7 +38,7 @@ enableEmoji = true
     # 默认每页列表显示的文章数目
     paginate = 12
     # [UA-XXXXXXXX-X] 谷歌分析代号
-    googleAnalytics = ""
+    googleAnalytics = "UA-82993633-1"
     # 版权描述，仅仅用于 SEO
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # 菜单配置
@@ -445,7 +445,7 @@ enableEmoji = true
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "i1YHXYoSTAxctMaBwNPg6eXPzIy64NzevB4PKQyqJQI"
     bing = ""
     yandex = ""
     pinterest = ""
@@ -467,7 +467,7 @@ enableEmoji = true
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-82993633-1"
       # whether to anonymize IP
       # 是否匿名化用户 IP
       anonymizeIP = true
