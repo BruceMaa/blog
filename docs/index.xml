@@ -8,24 +8,24 @@
             <atom:link href="https://brucemaa.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Git命令使用记录-工具篇</title>
-    <link>https://brucemaa.github.io/2016-08-19-git-tools/</link>
+    <link>https://brucemaa.github.io/2016/08/git-tools/</link>
     <pubDate>Fri, 19 Aug 2016 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://brucemaa.github.io/2016-08-19-git-tools/</guid>
-    <description><![CDATA[Git命令使用记录－来源自官方文档 选择修订版本 简短的 SHA-1 查看每次提交简短的SHA-1值 1 git log --abbrev-commit --pretty=oneline 假设某个提交是1c002dd....，如果你想]]></description>
+    <guid>https://brucemaa.github.io/2016/08/git-tools/</guid>
+    <description><![CDATA[Git命令的扩展使用，虽然不常用，但是用起来真爽]]></description>
 </item><item>
     <title>MySQL表中字段有非空限制，Hibernate添加默认值</title>
-    <link>https://brucemaa.github.io/2016-08-17-java-hibernate-null-insert-mysql/</link>
+    <link>https://brucemaa.github.io/2016/08/java-hibernate-null-insert-mysql/</link>
     <pubDate>Wed, 17 Aug 2016 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://brucemaa.github.io/2016-08-17-java-hibernate-null-insert-mysql/</guid>
-    <description><![CDATA[问题背景 Java开发中，使用Hibernate作为映射数据库的表，所以创建了一个modle类 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]]></description>
+    <guid>https://brucemaa.github.io/2016/08/java-hibernate-null-insert-mysql/</guid>
+    <description><![CDATA[如果使用Hibernate作为ORM时，字段值为null的不在生成的SQL中]]></description>
 </item><item>
     <title>Git命令使用记录-基础篇</title>
-    <link>https://brucemaa.github.io/2016-08-16-git-basics/</link>
+    <link>https://brucemaa.github.io/2016/08/git-basics/</link>
     <pubDate>Tue, 16 Aug 2016 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://brucemaa.github.io/2016-08-16-git-basics/</guid>
-    <description><![CDATA[Git命令使用记录－来源自官方文档 1. Git起步 1.1 配置文件 Git 自带一个 git config 的工具来帮助设置控制 Git 外观和行为的配置变量。 这些变量存储在三个不同的位]]></description>
+    <guid>https://brucemaa.github.io/2016/08/git-basics/</guid>
+    <description><![CDATA[Git基础命令的使用记录]]></description>
 </item></channel>
 </rss>

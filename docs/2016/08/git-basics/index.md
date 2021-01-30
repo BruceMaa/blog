@@ -50,8 +50,6 @@ git config user.name
 git config -e
 ```
 
-<!-- more -->
-
 ### 1.2 获取帮助
 
 > 若你使用Git时需要获取帮助，有三种方法可以找到Git命令的使用手册:

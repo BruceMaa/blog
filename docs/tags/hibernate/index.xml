@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>bruce.maqiang@gmail.com (BruceMaa)</managingEditor>
             <webMaster>bruce.maqiang@gmail.com (BruceMaa)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 17 Aug 2016 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://brucemaa.github.io/tags/hibernate/" rel="self" type="application/rss+xml" /><item>
     <title>MySQL表中字段有非空限制，Hibernate添加默认值</title>
-    <link>https://brucemaa.github.io/2016-08-17-java-hibernate-null-insert-mysql/</link>
+    <link>https://brucemaa.github.io/2016/08/java-hibernate-null-insert-mysql/</link>
     <pubDate>Wed, 17 Aug 2016 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>https://brucemaa.github.io/2016-08-17-java-hibernate-null-insert-mysql/</guid>
-    <description><![CDATA[问题背景 Java开发中，使用Hibernate作为映射数据库的表，所以创建了一个modle类 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]]></description>
+    <guid>https://brucemaa.github.io/2016/08/java-hibernate-null-insert-mysql/</guid>
+    <description><![CDATA[如果使用Hibernate作为ORM时，字段值为null的不在生成的SQL中]]></description>
 </item></channel>
 </rss>

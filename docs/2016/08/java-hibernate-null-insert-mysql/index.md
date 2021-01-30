@@ -46,8 +46,6 @@ public class HibernateTest extends BaseModel {
 }
 ```
 
-<!-- more -->
-
 > 对应的数据库，由于DBA要求非字符串字段必须有默认值，则
 
 ```sql
