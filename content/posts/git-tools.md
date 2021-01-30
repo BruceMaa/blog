@@ -1,6 +1,8 @@
 ---
 title: Git命令使用记录-工具篇
 date: 2016-08-19
+summary: Git命令的扩展使用，虽然不常用，但是用起来真爽
+description: 文章描述
 categories: ["DevTools"]
 tags: ["Git"]
 ---
@@ -25,8 +27,6 @@ git show 1c002dd4b536e7479f
 git show 1c002dd
 ```
 
-<!-- more -->
-	
 ### 分支引用
 
 > 如果想查看某个分支的最后一次提交信息，可以使用``rev-parse``探测出该分支的最后一次SHA-1值

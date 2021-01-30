@@ -3,6 +3,8 @@ title: Git命令使用记录-基础篇
 date: 2016-08-16
 lastmod: 2017-04-09
 draft: false
+summary: Git基础命令的使用记录
+description: 文章描述
 categories: ["DevTools"]
 tags: ["Git"]
 ---
@@ -55,8 +57,6 @@ git config user.name
 ```shell
 git config -e
 ```
-
-<!-- more -->
 
 ### 1.2 获取帮助
 

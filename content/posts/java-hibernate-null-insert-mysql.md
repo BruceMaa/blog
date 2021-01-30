@@ -3,6 +3,8 @@ title: MySQL表中字段有非空限制，Hibernate添加默认值
 date: 2016-08-17
 lastmod: 2016-08-17
 draft: false
+summary: 如果使用Hibernate作为ORM时，字段值为null的不在生成的SQL中
+description: 文章描述
 categories: ["Java"]
 tags: ["Hibernate"] 
 ---
@@ -51,8 +53,6 @@ public class HibernateTest extends BaseModel {
     }
 }
 ```
-
-<!-- more -->
 
 > 对应的数据库，由于DBA要求非字符串字段必须有默认值，则
 
