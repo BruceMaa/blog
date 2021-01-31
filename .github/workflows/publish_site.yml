@@ -1,6 +1,4 @@
 name: 'Hugo Publish'
-description: 'Github action to deploy Hugo blog'
-author: 'BruceMaa'
 
 on:
   push:
