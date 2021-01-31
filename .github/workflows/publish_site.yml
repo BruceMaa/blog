@@ -2,7 +2,7 @@ name: publish-blog-site
 on:
   push:
     branches:    
-      - master
+      - main
 jobs:
   publish-blog-site: 
     name: publish blog site
