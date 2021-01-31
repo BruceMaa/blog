@@ -10,5 +10,13 @@ jobs:
     steps: 
       - name: Checkout Code
         uses: actions/checkout@v2
-      - run: |
-          echo $PATH
+        run: rm -rf docs
+      - uses: jakejarvis/hugo-build-action@master
+        with:
+          args: mod get -u
+      - uses: jakejarvis/hugo-build-action@master
+        with:
+          args: --gc --minify --cleanDestinationDir -d docs
+        run: |
+          git status
+          ls -al
