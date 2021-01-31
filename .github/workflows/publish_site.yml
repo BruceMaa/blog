@@ -1,8 +1,12 @@
-name: publish-blog-site
+name: 'Hugo Publish'
+description: 'Github action to deploy Hugo blog'
+author: 'BruceMaa'
+
 on:
   push:
     branches:    
       - main
+
 jobs:
   publish-blog-site: 
     name: publish blog site
@@ -11,16 +15,38 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: remove docs
-        run: rm -rf docs
+        run: |
+          if [ -d "docs" ]; then
+            rm -rf docs
+          fi
+      - name: setup
+        id: vars
+        run: echo "::set-output name=commit_msg::$(git log -1 --pretty=%B)"
       - name: hugo mod get
-        uses: jakejarvis/hugo-build-action@master
+        uses: jakejarvis/hugo-build-action@v0.80.0
         with:
           args: mod get -u
       - name: hugo build
-        uses: jakejarvis/hugo-build-action@master
+        uses: jakejarvis/hugo-build-action@v0.80.0
         with:
           args: --gc --minify --cleanDestinationDir -d docs
       - name: publish blog
         run: |
-          git add -A
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          if [ "`git status -s`" ]
+          then
+            git add -A
+            git commit -am "Auto publish: ${{ steps.vars.outputs.commit_msg }} with $GITHUB_RUN_NUMBER"
+          fi  
           git push
+      - name:
+        run: |
+          echo GITHUB_WORKFLOW: $GITHUB_WORKFLOW
+          echo GITHUB_RUN_ID: $GITHUB_RUN_ID
+          echo GITHUB_RUN_NUMBER: $GITHUB_RUN_NUMBER
+          echo GITHUB_ACTION $GITHUB_ACTION
+          echo GITHUB_ACTOR $GITHUB_ACTOR
+          echo GITHUB_REPOSITORY $GITHUB_REPOSITORY
+          echo GITHUB_EVENT_NAME $GITHUB_EVENT_NAME
+          echo GITHUB_REF $GITHUB_REF
