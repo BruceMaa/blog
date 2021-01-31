@@ -20,7 +20,7 @@ jobs:
         uses: jakejarvis/hugo-build-action@master
         with:
           args: --gc --minify --cleanDestinationDir -d docs
-      - name: test
+      - name: publish blog
         run: |
-          git status
-          ls -al
+          git add -A
+          git push
