@@ -1,5 +1,8 @@
 name: publish-blog-site
-on: push
+on:
+  push:
+    branches:    
+      - master
 jobs:
   publish-blog-site: 
     name: publish blog site
