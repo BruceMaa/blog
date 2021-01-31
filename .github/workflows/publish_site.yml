@@ -10,13 +10,17 @@ jobs:
     steps: 
       - name: Checkout Code
         uses: actions/checkout@v2
+      - name: remove docs
         run: rm -rf docs
-      - uses: jakejarvis/hugo-build-action@master
+      - name: hugo mod get
+        uses: jakejarvis/hugo-build-action@master
         with:
           args: mod get -u
-      - uses: jakejarvis/hugo-build-action@master
+      - name: hugo build
+        uses: jakejarvis/hugo-build-action@master
         with:
           args: --gc --minify --cleanDestinationDir -d docs
+      - name: test
         run: |
           git status
           ls -al
