@@ -1,5 +1,5 @@
 ---
-title: Python使用记录－pip基础命令
+title: Python使用记录-pip基础命令
 date: 2016-08-31
 summary: 根据官方文档来学习pip基础命令使用记录
 description: 文章描述
