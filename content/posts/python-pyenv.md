@@ -1,9 +1,9 @@
 ---
-title: Python使用记录－版本控制pyenv
+title: Python使用记录-版本控制pyenv
 date: 2016-08-24
 summary: 使用pyenv，配置python多版本环境自由切换
 description: 文章描述
-categories: ["DevTools"]
+categories: ["DevTools", "Python"]
 tags: ["Python"]
 ---
 
