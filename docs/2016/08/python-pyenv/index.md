@@ -1,4 +1,4 @@
-# Python使用记录－版本控制pyenv
+# Python使用记录-版本控制pyenv
 
 
 ## pyenv的使用记录

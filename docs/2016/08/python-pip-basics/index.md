@@ -1,4 +1,4 @@
-# Python使用记录－pip基础命令
+# Python使用记录-pip基础命令
 
 
 ## pip基础命令记录--来源自[官方文档][pip.pypa]
