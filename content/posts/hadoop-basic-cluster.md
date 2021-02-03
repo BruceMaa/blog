@@ -13,7 +13,7 @@ draft: true
 
 {{< admonition note "背景" true >}}
 最近由于工作需要，转入大数据开发，由于之前只是片面的了解，近期开始系统的学习。
-从Hadoop开始，之后会继续学习Hive、HBase、Storm、Spark、Flink等知识。
+从Hadoop开始，之后会继续学习Hive、HBase、Storm、Spark、Flink、CarbonData等知识。
 {{< /admonition >}}
 
 ## [伪集群部署]^(单机部署单节点)
