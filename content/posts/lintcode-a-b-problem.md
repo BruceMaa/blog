@@ -4,7 +4,7 @@ date: 2017-06-09 19:41:40
 draft: false
 summary: 给出两个整数a和b, 求他们的和, 但不能使用`+`等数学运算符。
 description: 文章描述
-categories: ["Algorithm"]
+categories: ["lintcode"]
 tags: ["Algorithm"]
 ---
 
