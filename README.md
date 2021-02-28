@@ -1,5 +1,7 @@
 ### 司马琦昂的博客
 
+[![Hugo Publish](https://github.com/BruceMaa/blog/actions/workflows/publish_site.yml/badge.svg)](https://github.com/BruceMaa/blog/actions/workflows/publish_site.yml)
+
 [![BruceMaa's github stats](https://github-readme-stats.vercel.app/api?username=BruceMaa&show_icons=true&count_private=true)](https://github.com/BruceMaa)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=BruceMaa&layout=compact)](https://github.com/BruceMaa)
 
