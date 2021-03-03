@@ -90,13 +90,13 @@ echo 'export PAHT=$PATH:$JAVA_HOME/bin' >> /etc/profile
 source /etc/profile
 ```
 
-### 下载Hadoop3
+## 下载Hadoop3
 
 ```bash
 wget https://mirrors.bfsu.edu.cn/apache/hadoop/common/stable/hadoop-3.3.0.tar.gz
 ```
 
-### 准备启动Hadoop
+## 准备启动Hadoop
 
 1. 解压下载的Hadoop压缩包到指定位置
 
@@ -112,8 +112,8 @@ ln -sf /usr/local/hadoop/hadoop-3.3.0 /usr/local/hadoop/default
 export JAVA_HOME=/usr/local/java/default
 ```
 
-### 伪分布式运行（单节点运行）
-#### 配置
+## 伪分布式运行（单节点运行）
+### 配置
 进入到`/usr/local/hadoop/default`目录下
 1. 编辑`etc/hadoop/core-site.xml`文件
 ```xml
@@ -134,7 +134,7 @@ export JAVA_HOME=/usr/local/java/default
 	</property>
 </configuration>
 ```
-#### 运行HDFS
+### 运行HDFS
 1. 格式化
 ```bash
 bin/hdfs namenode -format
@@ -171,7 +171,7 @@ bin/hdfs dfs -mkdir /user
 ```bash
 sbin/stop-dfs.sh
 ```
-#### 运行YARN
+### 运行YARN
 1. 编辑配置文件
 `etc/hadoop/mapred-site.xml`
 ```xml
@@ -229,7 +229,7 @@ YARN_NODEMANAGER_USER=root
 sbin/stop-yarn.sh
 ```
 
-#### TIPS
+### TIPS
 如果每次启动或者关闭都要执行两个脚本，太麻烦了，所以Hadoop自带了执行全部的脚本。
 启动
 ```bash
