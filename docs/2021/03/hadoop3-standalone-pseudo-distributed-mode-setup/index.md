@@ -10,7 +10,7 @@
 
 ## 目的
 
-本文档介绍了如何设置和配置单节点Hadoop3安装，以便您可以使用Hadoop MapReduce和Hadoop分布式文件系统（HDFS）快速执行简单的操作。
+本篇文章介绍了如何设置和配置单节点Hadoop3安装，以便您可以使用Hadoop MapReduce和Hadoop分布式文件系统（HDFS）快速执行简单的操作。
 
 ## 前期准备
 
@@ -27,7 +27,7 @@ systemctl disable firewalld
 
 在Linux操作系统中必须包含的软件：
 
-1. 必须安装`Java`，推荐的Java版本描述位置在[ HadoopJavaVersions](https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Java+Versions "HadoopJavaVersions")。
+1. 必须安装`Java`，推荐的Java版本描述位置在[ HadoopJavaVersions][1]。
 2. 如果要使用启动和停止脚本，则必须安装`ssh`并且必须运行`sshd`才能使用管理远程Hadoop守护程序的脚本。
 
 ### 安装软件
@@ -65,7 +65,7 @@ ssh localhost
 
 2. 安装`Java`
 
-在此我们安装`Java8`，下载地址使用[**清华大学开源软件镜像站**](https://mirrors.tuna.tsinghua.edu.cn)。
+在此我们安装`Java8`，下载地址使用[**清华大学开源软件镜像站**][2]。
 
 ```bash
 wget https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/8/jdk/x64/linux/OpenJDK8U-jdk_x64_linux_hotspot_8u282b08.tar.gz
@@ -232,3 +232,5 @@ sbin/start-all.sh
 sbin/stop-all.sh
 ```
 
+[1]:	https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Java+Versions "HadoopJavaVersions"
+[2]:	https://mirrors.tuna.tsinghua.edu.cn
