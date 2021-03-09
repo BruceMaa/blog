@@ -163,6 +163,7 @@ HDFS_SECONDARYNAMENODE_USER=root
 表示启动成功（进程ID不一定相同）。
 3. 在浏览器上访问`NameNode`
 > http://localhost:9870/
+>
 > ⚠️ 在Hadoop2中，访问地址是 http://localhost:50070
 4. 在HDFS中创建目录
 ```bash
