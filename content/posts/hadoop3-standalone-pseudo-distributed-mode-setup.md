@@ -11,7 +11,7 @@ draft: false
 
 ## 背景
 
-{{< admonition note "背景" true >}}
+{{\< admonition note "背景" true \>}}
 最近由于工作需要，转入大数据开发，由于之前只是片面的了解，近期开始系统的学习。
 从Hadoop开始，之后会继续学习Hive、HBase、Storm、Spark、Flink、CarbonData等知识。
 {{< /admonition >}}
@@ -163,6 +163,7 @@ HDFS_SECONDARYNAMENODE_USER=root
 表示启动成功（进程ID不一定相同）。
 3. 在浏览器上访问`NameNode`
 > http://localhost:9870/
+> ⚠️ 在Hadoop2中，访问地址是 http://localhost:50070
 4. 在HDFS中创建目录
 ```bash
 bin/hdfs dfs -mkdir /user
