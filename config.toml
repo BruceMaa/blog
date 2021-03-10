@@ -152,7 +152,7 @@ enableEmoji = true
           # 是否显示社交账号
           social = true
           # 免责声明 (支持 HTML 格式)
-          disclaimer = "<a href='/'>免责声明❤️</a>"
+          disclaimer = "<a href='/about'>免责声明❤️</a>"
         # 主页文章列表
         [languages.zh-cn.params.home.posts]
           enable = true
