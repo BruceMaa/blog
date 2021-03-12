@@ -78,7 +78,7 @@ mkdir -p /usr/local/java
 tar -xzvf OpenJDK8U-jdk_x64_linux_hotspot_8u282b08.tar.gz -C /usr/local/java/
 ln -sf /usr/local/java/jdk8u282-b08/ /usr/local/java/default
 echo 'export JAVA_HOME=/usr/local/java/default' >> /etc/profile
-echo 'export PAHT=$PATH:$JAVA_HOME/bin' >> /etc/profile
+echo 'export PATH=$PATH:$JAVA_HOME/bin' >> /etc/profile
 source /etc/profile
 ```
 
