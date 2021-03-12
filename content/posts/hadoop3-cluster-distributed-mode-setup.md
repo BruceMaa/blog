@@ -1,6 +1,6 @@
 ---
 title: "Hadoop3集群分布式部署"
-subtitle: "CentOS7.4系统单机部署Hadoop3集群"
+subtitle: "CentOS7.4系统部署Hadoop3集群"
 date: 2021-03-11
 summary: 详细记录在3个CentOS7.4操作系统服务器中Hadoop3集群环境的搭建。
 description: 文章描述
