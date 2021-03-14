@@ -79,7 +79,7 @@ export JAVA_HOME=/usr/local/java/default
   <property>
 <!--SecondaryNameNode的地址-->
     <name>dfs.namenode.secondary.http-address</name>
-    <value>bigdata-1:50090</value>
+    <value>bigdata-1:9868</value>
   </property>
   <property>
 <!--namenode 节点数据（即元数据）的存放位置，可以指定多个目录实现容错，多个目录用逗号分隔-->
