@@ -78,5 +78,31 @@ available rcmd modules: ssh
 ```
 
 ## 例子
+1. 查看各个服务器的时间
+```bash
+pdsh -w bigdata-[1-4] date
+```
+2. 查看各个服务器的Java版本
+```bash
+pdsh -w bigdata-[1-4] "source /etc/profile;java -version"
+```
+3. 传输文件到各个服务器
+```bash
+pdcp -w bigdata-[1-4] /etc/profile /etc/profile
+```
+4. 传输目录到各个服务器
+```bash
+pdcp -r -w bigdata-[1-4] /path/ /path/
+```
 
 ## misc
+1. 配置machines
+```bash
+export WCOLL=/opt/pdsh/nodes
+```
+在`/opt/pdsh/nodes`文件中添加其他服务器地址，即可省略`-w` 参数。
+2. 配置group
+```bash
+export DSHGROUP_PATH=/opt/pdsh/group
+```
+`/opt/pdsh/group`是个目录，在目录中可以添加多个文件，用于远程服务器的分组，执行命令时通过`-g`参数指定文件名，就会在对应的服务器组执行命令。（编译的时候需要添加group的misc）
