@@ -1,6 +1,6 @@
 ---
 title: Linux下部署Zookeeper
-date: 2021-03-11
+date: 2021-03-23
 draft: false
 summary: 本篇文章主要介绍如何部署Zookeeper和Zookeeper集群。
 description: 文章描述
