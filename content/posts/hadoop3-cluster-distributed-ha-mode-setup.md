@@ -1,7 +1,7 @@
 ---
 title: "Hadoop3分布式高可用部署"
 subtitle: "CentOS7.4系统部署Hadoop3集群高可用"
-date: 2021-03-11
+date: 2021-03-27
 summary: 详细记录在4个CentOS7.4操作系统服务器中Hadoop3集群高可用环境的搭建。
 description: 文章描述
 categories: ["BigData"]
